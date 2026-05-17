@@ -274,12 +274,23 @@ body{
 @media (max-width:480px){
 
   .grid-wrap{
-    grid-template-columns:1fr;
-    gap:14px;
+    grid-template-columns:repeat(2,1fr);
+    gap:6px;
   }
 
   .country{
     max-width:100%;
+    width:100%;
+  }
+
+  .country img{
+    width:55px;
+    height:55px;
+  }
+
+  .name{
+    font-size:11px;
+    margin:4px 0;
   }
 
   .head-banner{
@@ -288,6 +299,6 @@ body{
   }
 
   .main-area{
-    padding:18px 10px;
+    padding:10px 6px;
   }
 }
